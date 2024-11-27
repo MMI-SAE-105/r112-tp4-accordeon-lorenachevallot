@@ -19,3 +19,9 @@ h1 {
     width: 100%;
     gap: 10px;
 }
+
+details {
+    position: relative;
+    min-width: 200px;
+    transition: all 0.3s ease;
+}
