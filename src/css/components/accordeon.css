@@ -25,3 +25,9 @@ details {
     min-width: 200px;
     transition: all 0.3s ease;
 }
+
+details[open] {
+    flex-grow: 1;
+    display: flex;
+    gap: 20px;
+}
