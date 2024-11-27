@@ -31,3 +31,19 @@ details[open] {
     display: flex;
     gap: 20px;
 }
+
+summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
