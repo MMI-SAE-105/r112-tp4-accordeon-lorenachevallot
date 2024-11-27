@@ -47,3 +47,13 @@ summary img {
     object-fit: cover;
     display: block;
 }
+
+details div {
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+details[open] div {
+    opacity: 1;
+}
