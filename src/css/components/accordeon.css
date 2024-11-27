@@ -7,3 +7,9 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
+
+h1 {
+    text-align: left;
+    color: #333;
+    margin-bottom: 30px;
+}
