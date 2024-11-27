@@ -57,3 +57,30 @@ details div {
 details[open] div {
     opacity: 1;
 }
+
+h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+p {
+    color: #666;
+    line-height: 1.5;
+}
+
+details[open] div {
+    animation: slideIn 0.3s ease forwards;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
